@@ -5,4 +5,6 @@
      <li>React.JS</li>
      <li>HTML,CSS,JAVASCRIPT</li>
     
-<img width="266" alt="image" src="https://user-images.githubusercontent.com/96938880/217310456-d1aee983-b62f-411b-9d63-94529d757d60.png">
+    
+    
+<img width="100vw" alt="image" src="https://user-images.githubusercontent.com/96938880/217310456-d1aee983-b62f-411b-9d63-94529d757d60.png">

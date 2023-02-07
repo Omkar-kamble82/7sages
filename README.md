@@ -4,9 +4,7 @@
 
   <h2>Technologies Used<h2>
      <li>React.JS</li>
-     <li>HTML,CSS,JAVASCRIPT</li>
-    
- <br/>
+     <li>HTML,CSS,JAVASCRIPT</li>    
  <br/>
 <h2>Letter of Reccomendation</h2>
 <br/>

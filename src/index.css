@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Poppins:wght@200;300;400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Manrope', sans-serif;
+  --primary:#11212c;
+  --light:#EEFBFB;
+  --sky:#4da8da;
+  --darksky:#007cc7;
+  --lightprimary:#203647;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+.overblur {
+  overflow-y:hidden;
+}
+
+.slick-dot {
+  position: initial;
+}
+
+.hidden {
+  opacity: 0;
+  filter:blur(5px);
+  transform:translateX(-100%);
+  transition: all 2s;
+}
+
+.show {
+  opacity: 1;
+  filter:blur(0);
+  transform: translate(0);
+}
+.hidden1 {
+  opacity: 0;
+  filter:blur(5px);
+  transform:translateY(-100%);
+  transition: all 2s;
+}
+
+.show1 {
+  opacity: 1;
+  filter:blur(0);
+  transform: translate(0);
+}
+.hidden2 {
+  opacity: 0;
+  filter:blur(5px);
+  transform:translateX(100%);
+  transition: all 2s;
+}
+
+.show2 {
+  opacity: 1;
+  filter:blur(0);
+  transform: translate(0);
+}
+
+.hiddenright {
+  opacity: 0;
+  filter:blur(5px);
+  transform:translateX(100%);
+  transition: all 2s;
+}
+
+.showright {
+  opacity: 1;
+  filter:blur(0);
+  transform: translate(0);
+}
+
+.hiddendown {
+  opacity: 0;
+  filter:blur(5px);
+  transform:translateY(100%);
+  transition: all 2s;
+}
+
+.showdown {
+  opacity: 1;
+  filter:blur(0);
+  transform: translate(0);
+}
+
+@media(prefers-reduced-motion) {
+  .hidden {
+    transition: none;
+  }
+}

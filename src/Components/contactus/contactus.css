@@ -1,0 +1,161 @@
+.contactus {
+    background-color: var(--primary);
+    padding-bottom: 30px;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin:0px 100px;
+}
+
+.contacts-heading {
+    background: linear-gradient(90deg, #3786d4 50%, #a0d9ff 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 600;
+    font-size: 32px;
+    margin-right: 20px;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    width: 48px;
+}
+
+.contact-info {
+    font-size: 28px;
+    font-weight: bold;
+    background: linear-gradient(90.15deg, #53A2FF 0.13%, #C5ED52 99.91%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.contact-content {
+    color:white;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.contact-div {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+@media only screen and (min-width: 1300px) {
+    .contact-info{
+        font-size: 40px;
+    }
+    .contact-content {
+        font-size: 25px;
+    }
+    .contacts-heading {
+        height: 54px;
+        width: 54px;
+    }
+}
+@media only screen and (max-width: 1200px) {
+
+}
+@media only screen and (max-width: 900px) {
+    .contact {
+        margin: 0px 100px;
+    }
+}
+@media only screen and (max-width: 750px) {
+    .contact {
+        margin: 0px 60px;
+    }
+}
+@media only screen and (max-width: 770px) {
+    .contact {
+        margin: 0px 60px;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 650px) {
+    .contact {
+        margin: 0px 30px;
+    }
+}
+@media only screen and (max-width: 550px) {
+    .contact {
+        margin: 0px 10px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .contact-div {
+        margin-top: 15px;
+        text-align: center;
+    }
+    .contact-content {
+        font-size: 13px;
+        align-items: center;
+        text-align: center;
+    }
+    .contactt-div {
+        margin-left: 10px;
+    }
+    .contact {
+        margin-left: 30px;
+    }
+    .contact-info {
+        font-size: 25px;
+    }
+    .address {
+        margin-left: -16px;
+    }
+    .email {
+        margin-left: 6px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .address {
+        margin-left: 0px;
+    }
+    .email {
+        margin-left: 20px;
+    }
+}
+@media only screen and (max-width: 420px) {
+    .address {
+        margin-left: 0px;
+    }
+    .email {
+        margin-left: 10px;
+    }
+}
+@media only screen and (max-width: 390px) {
+    .address {
+        margin-left: 24px;
+    }
+    .email {
+        margin-left: 10px;
+    }
+}
+@media only screen and (max-width: 385px) {
+    .address {
+        margin-left: 8px;
+    }
+    .email {
+        margin-left: 0px;
+    }
+}
+@media only screen and (max-width: 300px) {
+    .contact-content {
+        font-size: 12px;
+    }
+    .contacts-heading {
+        height: 40px;
+        width: 40px;
+    }
+    .address {
+        margin-left: 0;
+    }
+}
+

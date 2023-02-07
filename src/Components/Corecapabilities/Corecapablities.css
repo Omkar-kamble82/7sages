@@ -1,0 +1,117 @@
+.CoreC {
+    padding:40px 20px;
+    color:var(--light);
+    background-color: #1B262C;
+}
+
+.CoreC-divs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.CoreC-img {
+    max-width: 500px;
+    max-height: 350px;
+    margin:10px 35px;
+    border-radius: 10px;
+}
+
+.CoreC-heading {
+    font-size: 50px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #81f9bb;
+    font-weight: bold;
+}
+
+.CoreC-div {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.CoreC-content {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+@media only screen and (max-width: 1020px) {
+    .CoreC-div {
+        width: 360px;
+    }
+    
+    .CoreC-img {
+        width: 320px;
+        height: 200px;
+    }
+
+    .CoreC-content {
+        font-size: 16.5px;
+        margin-left: 30px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .CoreC-div {
+        width: 300px;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .CoreC-img {
+        width: 270px;
+        height: 200px;
+    }
+
+    .CoreC-content {
+        font-size: 19px;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .CoreC-div {
+        width: 300px;
+        margin-bottom: 30px;
+    }
+    
+    .CoreC-img {
+        width: 300px;
+        height: 200px;
+        padding: 0;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    .CoreC-content {
+        font-size: 19px;
+        margin-left: 0;
+    }
+
+    .CoreC-heading {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .CoreC-div {
+        width: 280px;
+    }
+    
+    .CoreC-img {
+        width: 240px;
+        height: 180px;
+    }
+
+    .CoreC-content {
+        font-size: 14px;
+    }
+
+    .CoreC-heading {
+        font-size:25px;
+    }
+
+    .CoreC-div {
+        margin-bottom: 30px;
+    }
+}

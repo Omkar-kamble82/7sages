@@ -1,0 +1,266 @@
+.client-heading {
+    font-size: 60px;
+    background: linear-gradient(120deg, #3786d4 -30%, #a0d9ff 120%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: bold;
+    margin-top: 17vh;
+    margin-bottom: 2vh;
+    text-align: center;
+}
+
+.clients {
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    padding-bottom: 10vh;
+    min-height: 80vh;
+}
+
+.slick-track {
+    border-radius: 30px;
+}
+
+.client-img {
+    background-size: contain;
+    background-position: center;
+    height: 320px;
+    width: 250px;
+    margin-left: 10px;
+}
+
+.slider {
+    overflow: hidden;
+    max-width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrows {
+    display: flex;
+    justify-content: space-between;
+    width: 10vw;
+    text-align: center;
+    margin-left: 45vw;
+}
+
+.testimonial {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin: 0px 0px;
+    padding-bottom: 20px;
+}
+
+.client-testimonial {
+    object-fit: cover;
+    width: 1000px;
+    height: 550px;
+    padding: 0;
+    border-radius: 30px;
+    box-shadow: 4px 10px 8px #7f7f7f;
+    overflow: hidden;
+}
+
+.client-slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mob-slider{
+    overflow: hidden;
+}
+@media only screen and (max-width: 1200px) {
+
+    .client-testimonial {
+        object-fit: cover;
+        height: 430px;
+        margin-left: 60px;
+    }
+    .testimonial{
+        height: 500px;
+        width: 850px;
+        padding: 0px;
+    }
+}
+@media only screen and (max-width: 1180px) {
+    .client-testimonial {
+        object-fit: cover;
+        height: 430px;
+        margin-left: 60px;
+        margin-right: 10px;
+    }
+    .testimonial{
+        height: 500px;
+        width: 850px;
+        padding: 0px;
+    }
+}
+@media only screen and (max-width: 1060px) {
+    .slider {
+        margin-top: 0vh;
+        margin-bottom: 0vh;
+    }
+    .client-testimonial {
+        object-fit: cover;
+        height: 430px;
+        margin-left: 0px;
+        margin-right: 30px;
+    }
+    .testimonial{
+        height: 500px;
+        width: 850px;
+        padding: 0px;
+    }
+}
+
+
+@media only screen and (max-width: 900px) {
+    .client-heading {
+        margin-bottom: 10px;
+        margin-top: 90px;
+    }
+}
+
+@media only screen and (max-width: 1030px) {
+    .client-testimonial {
+        object-fit: cover;
+        height: 340px;
+        margin-left: 80px;
+        padding-bottom: 0;
+        margin-right: 0px;
+    }
+    .testimonial{
+        height: 370px;
+        width: 700px;
+        padding: 10px;
+    }
+}
+@media only screen and (max-width: 873px) {
+    .client-testimonial {
+        object-fit: cover;
+        height: 360px;
+        /* width: 850px; */
+        margin-left: -15px;
+        margin-right: 0px;
+    }
+    .testimonial{
+        height: 420px;
+        width: 650px;
+        padding-left: 15px;
+    }
+}
+@media only screen and (max-width: 810px) {
+    .client-testimonial {
+        object-fit: cover;
+        height: 320px;
+        width: 580px;
+        margin: 0px auto;
+    }
+    .testimonial{
+        height: 370px;
+        padding: 0px;
+    }
+}
+@media only screen and (max-width: 770px) {
+    .client-testimonial {
+        object-fit: cover;
+        height: 320px;
+        width: 580px;
+        margin: 0px auto;
+        margin-left: 10px;
+    }
+    .testimonial{
+        height: 370px;
+        padding: 0px;
+    }
+}
+@media only screen and (max-width: 740px) {
+    .client-testimonial {
+        object-fit: cover;
+        height: 310px;
+        /* margin-left: -70px; */
+    }
+    .testimonial{
+        height: 350px;
+        padding: 0px;
+    }
+}
+
+@media only screen and (max-width: 725px) {
+    .client-heading {
+        font-size: 40px;
+    }
+    .client-testimonial {
+        object-fit: cover;
+        height: 270px;
+        width: 500px;
+    }
+    .testimonial{
+        height: 330px;
+        padding: 0px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .client-testimonial {
+        object-fit: cover;
+        height: 260px;
+        width: 480px;
+        margin-left: 0;
+    }
+    .testimonial{
+        height: 310px;
+        padding: 0px;
+    }
+}
+@media only screen and (max-width: 610px) {
+    .mobile-slider {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .mobile-client-testimonial{
+        width: 65vw;
+        height: 110vh;
+        margin-left:16.5vw;
+        border-radius: 30px;
+        margin-bottom: 10px;
+        box-shadow: 4px 10px 8px #7f7f7f;
+    }
+}
+@media only screen and (max-width: 470px) {
+    .client-heading {
+        font-size: 54px;
+        padding: 0;
+        width: 100vw;
+    }
+    .mobile-slider {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .mobile-client-testimonial{
+        width: 90vw;
+        height: 100vh;
+        margin-left: 5vw;
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .client-heading {
+        font-size:35px;
+    }
+
+    .client-content {
+        width: 260px;
+    }
+
+    .client-details {
+        font-size: 13px;
+    }
+}
+

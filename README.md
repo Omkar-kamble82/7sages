@@ -8,4 +8,4 @@
  <br/>
 <h2>Letter of Reccomendation</h2>
 <br/>
-![Certificate](https://user-images.githubusercontent.com/96938880/221420960-c3fff8fb-20ce-4c38-ae31-9d741c5cb036.jpg)
+<img src="https://user-images.githubusercontent.com/96938880/221421007-c5675d65-a57d-4a89-ac6d-dfae5a19eaa9.jpg" alt="certificate" />
